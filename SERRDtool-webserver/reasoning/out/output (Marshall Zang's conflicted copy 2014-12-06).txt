@@ -1,0 +1,16 @@
+Reasoning information, starting from selected analyzers: 
+analyzerName:  ProcessTimeAnalyzer
+sensorName  ("RequestResponseRecieveSensor" "RequestTimeSensor")
+attributeName  ("ProcessingTime")
+formula  ("<  Response RequestTime - >" "<  Response Request - >")
+unit  ()
+coefficient  ()
+
+Reasoning information, starting from selected analyzers: 
+analyzerName:  DownTimeAnalyzer
+sensorName  ("SystemDownSensor")
+attributeName  ("DownTime")
+formula  ("<  StartUpTime PowerOffTime - >")
+unit  ()
+coefficient  ()
+

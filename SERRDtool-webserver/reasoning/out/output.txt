@@ -1,0 +1,24 @@
+Reasoning information, starting from selected analyzers: 
+analyzerName:  CostAnalyzer
+sensorName  ("SystemDownSensor" "RequestResponseRecieveSensor2")
+attributeName  ("Cost2")
+formula  ("<  Response2 Request2 - UpTime DownTime + / >")
+unit  ()
+coefficient  ()
+
+Reasoning information, starting from selected analyzers: 
+analyzerName:  ProcessTimeAnalyzer
+sensorName  ("RequestResponseRecieveSensor" "RequestResponseTimeSensor")
+attributeName  ("ProcessingTime")
+formula  ("<  ResponseTime RequestTime - >" "<  Response RequestTime - >" "<  ResponseTime Request - >" "<  Response Request - >")
+unit  ()
+coefficient  ()
+
+Reasoning information, starting from selected analyzers: 
+analyzerName:  DownTimeAnalyzer
+sensorName  ("SystemDownSensor")
+attributeName  ("DownTime")
+formula  ("<  StartUpTime PowerOffTime - >")
+unit  ()
+coefficient  ()
+
