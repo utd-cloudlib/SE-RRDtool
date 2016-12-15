@@ -1,0 +1,2628 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1348074741596 "http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#" >
+    <!ENTITY Ontology13480747415962 "http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#3" >
+    <!ENTITY Byte "http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Byte/" >
+    <!ENTITY Meter "http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Meter/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:Byte="&Ontology1348074741596;Byte/"
+     xmlns:Meter="&Ontology1348074741596;Meter/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1348074741596="http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#"
+     xmlns:Ontology13480747415962="&Ontology1348074741596;3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#coefficient -->
+
+    <AnnotationProperty rdf:about="&Ontology1348074741596;coefficient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#conceptPool -->
+
+    <AnnotationProperty rdf:about="&Ontology1348074741596;conceptPool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#description -->
+
+    <AnnotationProperty rdf:about="&Ontology1348074741596;description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#quantitativeDefinition -->
+
+    <AnnotationProperty rdf:about="&Ontology1348074741596;quantitativeDefinition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#belongsToLayer -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;belongsToLayer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#calculatedBy -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;calculatedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasActivationType -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasActivationType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasAttribute -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasAttribute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasComplexMagnitude -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasComplexMagnitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasCustomer -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasCustomer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMeasurement -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasMeasurement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMeasuringType -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasMeasuringType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMetric -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasMetric">
+        <inverseOf rdf:resource="&Ontology1348074741596;isMetricOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasPenalty -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasPenalty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasProvider -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasProvider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasRequirement -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasSensor -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasSensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasTarget -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasTarget"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasUnit -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;hasUnit">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#isAggregateOf -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;isAggregateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#isMetricOf -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;isMetricOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#manage -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;manage">
+        <rdfs:comment>A user manages some software.</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#measures -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;measures"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#meetsRequirement -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;meetsRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#requiresSensor -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;requiresSensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#restrictTo -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;restrictTo">
+        <rdfs:comment>In some cases, a metric can only be applied to some restricted cloud entities, e.g. utilization in on hardware layers.</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#workOn -->
+
+    <ObjectProperty rdf:about="&Ontology1348074741596;workOn">
+        <rdfs:comment>A user works on some hardware.</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasAverageValue -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasAverageValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasExactValue -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasExactValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMagnitude -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasMagnitude">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1348074741596;MeasurementConcept"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMaxValue -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasMaxValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasMinValue -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasMinValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#hasTimeStamp -->
+
+    <DatatypeProperty rdf:about="&Ontology1348074741596;hasTimeStamp"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#3DAcceleratorEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;3DAcceleratorEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AccessFailure -->
+
+    <Class rdf:about="&Ontology1348074741596;AccessFailure">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AccessRecover -->
+
+    <Class rdf:about="&Ontology1348074741596;AccessRecover">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Accountability -->
+
+    <Class rdf:about="&Ontology1348074741596;Accountability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Accuracy -->
+
+    <Class rdf:about="&Ontology1348074741596;Accuracy">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AccuracyConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;AccuracyConcept">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OutputQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AggregateAccessEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;AggregateAccessEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EventConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AggregateStatusEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;AggregateStatusEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EventConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AggregateUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;AggregateUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMeasurement"/>
+        <rdfs:comment>Is some type of aggregate measurement. Meaning it is a set of at least two measurements. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Application -->
+
+    <Class rdf:about="&Ontology1348074741596;Application">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AttackConfirmed -->
+
+    <Class rdf:about="&Ontology1348074741596;AttackConfirmed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;PotentialAttackFound"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AttackHandled -->
+
+    <Class rdf:about="&Ontology1348074741596;AttackHandled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AttackStart -->
+
+    <Class rdf:about="&Ontology1348074741596;AttackStart">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Attacked"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AttackVanished -->
+
+    <Class rdf:about="&Ontology1348074741596;AttackVanished">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Attacked"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Attacked -->
+
+    <Class rdf:about="&Ontology1348074741596;Attacked">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AuthenticationPeriod -->
+
+    <Class rdf:about="&Ontology1348074741596;AuthenticationPeriod">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Authenticity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AuthenticationValidPeroid -->
+
+    <Class rdf:about="&Ontology1348074741596;AuthenticationValidPeroid">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Authenticity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Authenticity -->
+
+    <Class rdf:about="&Ontology1348074741596;Authenticity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Security"/>
+        <rdfs:comment>The authenticity of a subject or object is deﬁned as its genuineness and credibility; these can be veriﬁed on the basis of its unique identity and characteristic features.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AuthenticitySignatureType -->
+
+    <Class rdf:about="&Ontology1348074741596;AuthenticitySignatureType">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EncryptionLevel"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Availability -->
+
+    <Class rdf:about="&Ontology1348074741596;Availability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+        <Ontology1348074741596:quantitativeDefinition>UpTime,UpTime,DownTime,+,/</Ontology1348074741596:quantitativeDefinition>
+        <Ontology1348074741596:description>Availability can be specified as percentage of time or as a period which is free from operational failures.</Ontology1348074741596:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#AverageMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;AverageMeasurement">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StatisticMeasurement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Bandwidth -->
+
+    <Class rdf:about="&Ontology1348074741596;Bandwidth">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#BasicUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;BasicUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMeasurement"/>
+        <disjointWith rdf:resource="&Ontology1348074741596;MeasurementConcept"/>
+        <rdfs:comment>Is a specific unit that the different measurments can have. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Becquerel -->
+
+    <Class rdf:about="&Ontology1348074741596;Becquerel">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfRadiation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Bit -->
+
+    <Class rdf:about="&Ontology1348074741596;Bit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <Ontology1348074741596:coefficient>0.125</Ontology1348074741596:coefficient>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Bps -->
+
+    <Class rdf:about="&Ontology1348074741596;Bps">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfBandwidth"/>
+        <rdfs:comment>1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#BridgeModeEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;BridgeModeEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkModeChanged"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Byte -->
+
+    <Class rdf:about="&Ontology1348074741596;Byte">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Byte/Second -->
+
+    <Class rdf:about="&Ontology1348074741596;Byte/Second">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataTransfer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CPUHotPlug -->
+
+    <Class rdf:about="&Ontology1348074741596;CPUHotPlug">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMScaled"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CPUSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;CPUSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CacheHit -->
+
+    <Class rdf:about="&Ontology1348074741596;CacheHit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CacheSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CacheMiss -->
+
+    <Class rdf:about="&Ontology1348074741596;CacheMiss">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CacheSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CacheSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;CacheSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Capacity -->
+
+    <Class rdf:about="&Ontology1348074741596;Capacity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Cent -->
+
+    <Class rdf:about="&Ontology1348074741596;Cent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMoney"/>
+        <rdfs:comment>0.01</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ClientApplication -->
+
+    <Class rdf:about="&Ontology1348074741596;ClientApplication">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Application"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CloudConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;CloudConcept">
+        <rdfs:comment>This represents the abstract concept of a layer in the Cloud System.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Cluster -->
+
+    <Class rdf:about="&Ontology1348074741596;Cluster">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CommentRate -->
+
+    <Class rdf:about="&Ontology1348074741596;CommentRate">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserFriendliness"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ComplexAggregateUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;ComplexAggregateUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ConfidenceLevel -->
+
+    <Class rdf:about="&Ontology1348074741596;ConfidenceLevel">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Confidentiality -->
+
+    <Class rdf:about="&Ontology1348074741596;Confidentiality">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Security"/>
+        <rdfs:comment>The conﬁdentiality of a system is guaranteed providing it prevents unauthorized gathering of information.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ContextSwitch -->
+
+    <Class rdf:about="&Ontology1348074741596;ContextSwitch">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSwitch"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ContiguousStorageAttach -->
+
+    <Class rdf:about="&Ontology1348074741596;ContiguousStorageAttach">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StorageAttached"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Cost -->
+
+    <Class rdf:about="&Ontology1348074741596;Cost">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Create -->
+
+    <Class rdf:about="&Ontology1348074741596;Create">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Creditability -->
+
+    <Class rdf:about="&Ontology1348074741596;Creditability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Trust"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#CustomerSatisfactionPercentage -->
+
+    <Class rdf:about="&Ontology1348074741596;CustomerSatisfactionPercentage">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserFriendliness"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DataCenter -->
+
+    <Class rdf:about="&Ontology1348074741596;DataCenter">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Day -->
+
+    <Class rdf:about="&Ontology1348074741596;Day">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>86400</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Decibel -->
+
+    <Class rdf:about="&Ontology1348074741596;Decibel">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfSound"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DefectDesity -->
+
+    <Class rdf:about="&Ontology1348074741596;DefectDesity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Accountability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DeviceConfigured -->
+
+    <Class rdf:about="&Ontology1348074741596;DeviceConfigured">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OtherDeviceSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DeviceFound -->
+
+    <Class rdf:about="&Ontology1348074741596;DeviceFound">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OtherDeviceSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DeviceMounted -->
+
+    <Class rdf:about="&Ontology1348074741596;DeviceMounted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OtherDeviceSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Dime -->
+
+    <Class rdf:about="&Ontology1348074741596;Dime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMoney"/>
+        <rdfs:comment>0.1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Disabled -->
+
+    <Class rdf:about="&Ontology1348074741596;Disabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskDefragmented -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskDefragmented">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskError -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskError">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DiskSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskMount -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskMount">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DiskSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskRead -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskRead">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Disk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskUnmount -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskUnmount">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DiskSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DiskWrite -->
+
+    <Class rdf:about="&Ontology1348074741596;DiskWrite">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Disk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Dollar -->
+
+    <Class rdf:about="&Ontology1348074741596;Dollar">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMoney"/>
+        <rdfs:comment>1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DownStreamBandwidth -->
+
+    <Class rdf:about="&Ontology1348074741596;DownStreamBandwidth">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Bandwidth"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DownTime -->
+
+    <Class rdf:about="&Ontology1348074741596;DownTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Availability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#DynamicStorageAttach -->
+
+    <Class rdf:about="&Ontology1348074741596;DynamicStorageAttach">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StorageAttached"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Enabled -->
+
+    <Class rdf:about="&Ontology1348074741596;Enabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#EncryptionLevel -->
+
+    <Class rdf:about="&Ontology1348074741596;EncryptionLevel">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Confidentiality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#EventConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;EventConcept">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FScore -->
+
+    <Class rdf:about="&Ontology1348074741596;FScore">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ComplexAggregateUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Fahrenheit -->
+
+    <Class rdf:about="&Ontology1348074741596;Fahrenheit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTemprature"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Failed -->
+
+    <Class rdf:about="&Ontology1348074741596;Failed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FailureDensity -->
+
+    <Class rdf:about="&Ontology1348074741596;FailureDensity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Reliability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FalseNegative -->
+
+    <Class rdf:about="&Ontology1348074741596;FalseNegative">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FalsePositiveRate -->
+
+    <Class rdf:about="&Ontology1348074741596;FalsePositiveRate">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FaultImpact -->
+
+    <Class rdf:about="&Ontology1348074741596;FaultImpact">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Maintainability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FaultIsolationPeriod -->
+
+    <Class rdf:about="&Ontology1348074741596;FaultIsolationPeriod">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;FaultImpact"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FaultRecoverPeriod -->
+
+    <Class rdf:about="&Ontology1348074741596;FaultRecoverPeriod">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;FaultImpact"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FeatureSufficiency -->
+
+    <Class rdf:about="&Ontology1348074741596;FeatureSufficiency">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Usability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FileCreated -->
+
+    <Class rdf:about="&Ontology1348074741596;FileCreated">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-File"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FileDeleted -->
+
+    <Class rdf:about="&Ontology1348074741596;FileDeleted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-File"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#FileModified -->
+
+    <Class rdf:about="&Ontology1348074741596;FileModified">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-File"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#GB -->
+
+    <Class rdf:about="&Ontology1348074741596;GB">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1073741824</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Gbps -->
+
+    <Class rdf:about="&Ontology1348074741596;Gbps">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfBandwidth"/>
+        <rdfs:comment>1073741824</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#GenericModeEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;GenericModeEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkModeChanged"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Group -->
+
+    <Class rdf:about="&Ontology1348074741596;Group">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#HardwareLayer -->
+
+    <Class rdf:about="&Ontology1348074741596;HardwareLayer">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CloudConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#HardwareUpdate -->
+
+    <Class rdf:about="&Ontology1348074741596;HardwareUpdate">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HostSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Host -->
+
+    <Class rdf:about="&Ontology1348074741596;Host">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#HostOnlyModeEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;HostOnlyModeEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkModeChanged"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#HostSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;HostSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Hour -->
+
+    <Class rdf:about="&Ontology1348074741596;Hour">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>3600</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Hypervisor -->
+
+    <Class rdf:about="&Ontology1348074741596;Hypervisor">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Hz -->
+
+    <Class rdf:about="&Ontology1348074741596;Hz">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfFrequency"/>
+        <rdfs:comment>1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#IOBlended -->
+
+    <Class rdf:about="&Ontology1348074741596;IOBlended">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#IdleTime -->
+
+    <Class rdf:about="&Ontology1348074741596;IdleTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Timeliness"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Integrity -->
+
+    <Class rdf:about="&Ontology1348074741596;Integrity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Security"/>
+        <rdfs:comment>A system guarantees data integrity if it is impossible for subjects to manipulate the protected data unnoticed or in an unauthorized way.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#InternalModeEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;InternalModeEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkModeChanged"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Interoperability -->
+
+    <Class rdf:about="&Ontology1348074741596;Interoperability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#InterruptOccurr -->
+
+    <Class rdf:about="&Ontology1348074741596;InterruptOccurr">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CPUSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Joule -->
+
+    <Class rdf:about="&Ontology1348074741596;Joule">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfEnergy"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#KB -->
+
+    <Class rdf:about="&Ontology1348074741596;KB">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1024</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#KHz -->
+
+    <Class rdf:about="&Ontology1348074741596;KHz">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfFrequency"/>
+        <rdfs:comment>1000</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Kbps -->
+
+    <Class rdf:about="&Ontology1348074741596;Kbps">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfBandwidth"/>
+        <rdfs:comment>1024</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Lambert -->
+
+    <Class rdf:about="&Ontology1348074741596;Lambert">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfLuminance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Latency -->
+
+    <Class rdf:about="&Ontology1348074741596;Latency">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MB -->
+
+    <Class rdf:about="&Ontology1348074741596;MB">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1048576</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MHz -->
+
+    <Class rdf:about="&Ontology1348074741596;MHz">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfFrequency"/>
+        <rdfs:comment>1000000</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Maintainability -->
+
+    <Class rdf:about="&Ontology1348074741596;Maintainability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MaxMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;MaxMeasurement">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StatisticMeasurement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Mbps -->
+
+    <Class rdf:about="&Ontology1348074741596;Mbps">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfBandwidth"/>
+        <rdfs:comment>1048576</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MeasurementConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;MeasurementConcept">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MeasurementMethod"/>
+        <rdfs:comment>This represents a a measurement. There are different types of measurements that are its sub-classes. (Aggregate, Measurement of Time....).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MeasurementMethod -->
+
+    <Class rdf:about="&Ontology1348074741596;MeasurementMethod">
+        <rdfs:comment>This represents that someting is a concept of involved with measuring. The concept could be a unit, a method of measurment, or a measurment. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MeasuringActivationType -->
+
+    <Class rdf:about="&Ontology1348074741596;MeasuringActivationType">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MeasurementMethod"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MediaMounted -->
+
+    <Class rdf:about="&Ontology1348074741596;MediaMounted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DeviceMounted"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MemoryBalloning -->
+
+    <Class rdf:about="&Ontology1348074741596;MemoryBalloning">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMScaled"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MemorySpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;MemorySpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MessageLost -->
+
+    <Class rdf:about="&Ontology1348074741596;MessageLost">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MessageReceived -->
+
+    <Class rdf:about="&Ontology1348074741596;MessageReceived">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MessageRetransmit -->
+
+    <Class rdf:about="&Ontology1348074741596;MessageRetransmit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MessageSent -->
+
+    <Class rdf:about="&Ontology1348074741596;MessageSent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccess-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Meter -->
+
+    <Class rdf:about="&Ontology1348074741596;Meter">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfLength"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Meter/Second -->
+
+    <Class rdf:about="&Ontology1348074741596;Meter/Second">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfSpeed"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Microsecond -->
+
+    <Class rdf:about="&Ontology1348074741596;Microsecond">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>0.000001</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Millisecond -->
+
+    <Class rdf:about="&Ontology1348074741596;Millisecond">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>0.001</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#MinMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;MinMeasurement">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StatisticMeasurement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Minute -->
+
+    <Class rdf:about="&Ontology1348074741596;Minute">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>60</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NATModeEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;NATModeEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkModeChanged"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Nanosecond -->
+
+    <Class rdf:about="&Ontology1348074741596;Nanosecond">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>0.000000001</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkConnected -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkConnected">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkDisabled -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkDisabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatus-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkDisconnected -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkDisconnected">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;NetworkSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkEnabled -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkEnabled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatus-Network"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkFacility -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkFacility">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkModeChanged -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkModeChanged">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NetworkSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;NetworkSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NumberOfAttacks -->
+
+    <Class rdf:about="&Ontology1348074741596;NumberOfAttacks">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Vulnerability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NumberOfCompletedTasks -->
+
+    <Class rdf:about="&Ontology1348074741596;NumberOfCompletedTasks">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Throughput"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NumberOfUnauthorizedAccess -->
+
+    <Class rdf:about="&Ontology1348074741596;NumberOfUnauthorizedAccess">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Confidentiality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#NumberOfUnauthorizedModification -->
+
+    <Class rdf:about="&Ontology1348074741596;NumberOfUnauthorizedModification">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Integrity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OS -->
+
+    <Class rdf:about="&Ontology1348074741596;OS">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OSCrashed -->
+
+    <Class rdf:about="&Ontology1348074741596;OSCrashed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatus-OS"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OSExceptionThrowed -->
+
+    <Class rdf:about="&Ontology1348074741596;OSExceptionThrowed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OSSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OSRecovered -->
+
+    <Class rdf:about="&Ontology1348074741596;OSRecovered">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatus-OS"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OSRestored -->
+
+    <Class rdf:about="&Ontology1348074741596;OSRestored">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OSSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OSSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;OSSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#One-time_Program -->
+
+    <Class rdf:about="&Ontology1348074741596;One-time_Program">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Application"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OperationalCompatibility -->
+
+    <Class rdf:about="&Ontology1348074741596;OperationalCompatibility">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Interoperability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OtherDevice -->
+
+    <Class rdf:about="&Ontology1348074741596;OtherDevice">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OtherDeviceSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;OtherDeviceSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OutputConsistancy -->
+
+    <Class rdf:about="&Ontology1348074741596;OutputConsistancy">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;OutputQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#OutputQuality -->
+
+    <Class rdf:about="&Ontology1348074741596;OutputQuality">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Overhead -->
+
+    <Class rdf:about="&Ontology1348074741596;Overhead">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PB -->
+
+    <Class rdf:about="&Ontology1348074741596;PB">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1125899906842624</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PageFault -->
+
+    <Class rdf:about="&Ontology1348074741596;PageFault">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MemorySpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Paused -->
+
+    <Class rdf:about="&Ontology1348074741596;Paused">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PercentageMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;PercentageMeasurement">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;PseudoUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Performance -->
+
+    <Class rdf:about="&Ontology1348074741596;Performance">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PeriodicMeasuring -->
+
+    <Class rdf:about="&Ontology1348074741596;PeriodicMeasuring">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MeasuringActivationType"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PotentialAttackFound -->
+
+    <Class rdf:about="&Ontology1348074741596;PotentialAttackFound">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Attacked"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PrcessSwapOut -->
+
+    <Class rdf:about="&Ontology1348074741596;PrcessSwapOut">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSwap"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Precision -->
+
+    <Class rdf:about="&Ontology1348074741596;Precision">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProbabilityOfAvailabilityOnDemand -->
+
+    <Class rdf:about="&Ontology1348074741596;ProbabilityOfAvailabilityOnDemand">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Availability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Process -->
+
+    <Class rdf:about="&Ontology1348074741596;Process">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessReady -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessReady">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessRun -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessRun">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSpecificEvents -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSpecificEvents">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSuspend -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSuspend">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSwap -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSwap">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSwapIn -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSwapIn">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSwap"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSwitch -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSwitch">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSwitchIn -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSwitchIn">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSwitch"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessSwitchOut -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessSwitchOut">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSwitch"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessTerminate -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessTerminate">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessWait -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessWait">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;ProcessSpecificEvents"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ProcessingTime -->
+
+    <Class rdf:about="&Ontology1348074741596;ProcessingTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Latency"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#PseudoUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;PseudoUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+        <Ontology1348074741596:conceptPool>Count</Ontology1348074741596:conceptPool>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#QoSDeviation -->
+
+    <Class rdf:about="&Ontology1348074741596;QoSDeviation">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSViolation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#QoSMetricConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;QoSMetricConcept">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#QoSViolation -->
+
+    <Class rdf:about="&Ontology1348074741596;QoSViolation">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SLAConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#QoSViolationPenalty -->
+
+    <Class rdf:about="&Ontology1348074741596;QoSViolationPenalty">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSViolation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Quarter -->
+
+    <Class rdf:about="&Ontology1348074741596;Quarter">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfMoney"/>
+        <rdfs:comment>0.25</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Rack -->
+
+    <Class rdf:about="&Ontology1348074741596;Rack">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#RatioUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;RatioUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Read -->
+
+    <Class rdf:about="&Ontology1348074741596;Read">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Recall -->
+
+    <Class rdf:about="&Ontology1348074741596;Recall">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Recovered -->
+
+    <Class rdf:about="&Ontology1348074741596;Recovered">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#RegularAccess-Disk -->
+
+    <Class rdf:about="&Ontology1348074741596;RegularAccess-Disk">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#RegularAccess-File -->
+
+    <Class rdf:about="&Ontology1348074741596;RegularAccess-File">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#RegularAccess-Network -->
+
+    <Class rdf:about="&Ontology1348074741596;RegularAccess-Network">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#RegularAccessEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;RegularAccessEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EventConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Reliability -->
+
+    <Class rdf:about="&Ontology1348074741596;Reliability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Remove -->
+
+    <Class rdf:about="&Ontology1348074741596;Remove">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Reputation -->
+
+    <Class rdf:about="&Ontology1348074741596;Reputation">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Trust"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Request -->
+
+    <Class rdf:about="&Ontology1348074741596;Request">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Resolution -->
+
+    <Class rdf:about="&Ontology1348074741596;Resolution">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Uncertainty"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Response -->
+
+    <Class rdf:about="&Ontology1348074741596;Response">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SCSEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;SCSEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EventConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SLAConcept -->
+
+    <Class rdf:about="&Ontology1348074741596;SLAConcept">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SSDMounted -->
+
+    <Class rdf:about="&Ontology1348074741596;SSDMounted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DeviceMounted"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Second -->
+
+    <Class rdf:about="&Ontology1348074741596;Second">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>1</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Security -->
+
+    <Class rdf:about="&Ontology1348074741596;Security">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Sensitivity-Specificity -->
+
+    <Class rdf:about="&Ontology1348074741596;Sensitivity-Specificity">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#ServiceApplication -->
+
+    <Class rdf:about="&Ontology1348074741596;ServiceApplication">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Application"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SharedFolderMounted -->
+
+    <Class rdf:about="&Ontology1348074741596;SharedFolderMounted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;StorageAttached"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SoftwareLayer -->
+
+    <Class rdf:about="&Ontology1348074741596;SoftwareLayer">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CloudConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SpaceOverhead -->
+
+    <Class rdf:about="&Ontology1348074741596;SpaceOverhead">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Overhead"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Speed -->
+
+    <Class rdf:about="&Ontology1348074741596;Speed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+        <Ontology1348074741596:conceptPool>Throughput
+</Ontology1348074741596:conceptPool>
+        <Ontology1348074741596:description></Ontology1348074741596:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#StatisticMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;StatisticMeasurement">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MeasurementConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#StorageAttached -->
+
+    <Class rdf:about="&Ontology1348074741596;StorageAttached">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#StorageProvisioningSimplied -->
+
+    <Class rdf:about="&Ontology1348074741596;StorageProvisioningSimplied">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SuspectRemoved -->
+
+    <Class rdf:about="&Ontology1348074741596;SuspectRemoved">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;PotentialAttackFound"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SystemStatus-Network -->
+
+    <Class rdf:about="&Ontology1348074741596;SystemStatus-Network">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SystemStatus-OS -->
+
+    <Class rdf:about="&Ontology1348074741596;SystemStatus-OS">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SystemStatus-VM -->
+
+    <Class rdf:about="&Ontology1348074741596;SystemStatus-VM">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateStatusEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#SystemStatusEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;SystemStatusEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;EventConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TB -->
+
+    <Class rdf:about="&Ontology1348074741596;TB">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfDataSize"/>
+        <rdfs:comment>1073741824</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Tbps -->
+
+    <Class rdf:about="&Ontology1348074741596;Tbps">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfBandwidth"/>
+        <rdfs:comment>1073741824</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Thread -->
+
+    <Class rdf:about="&Ontology1348074741596;Thread">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Throughput -->
+
+    <Class rdf:about="&Ontology1348074741596;Throughput">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TimeOverhead -->
+
+    <Class rdf:about="&Ontology1348074741596;TimeOverhead">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Overhead"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Timeliness -->
+
+    <Class rdf:about="&Ontology1348074741596;Timeliness">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TriggerMeasuring -->
+
+    <Class rdf:about="&Ontology1348074741596;TriggerMeasuring">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;MeasuringActivationType"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TrueNegative -->
+
+    <Class rdf:about="&Ontology1348074741596;TrueNegative">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TruePositive -->
+
+    <Class rdf:about="&Ontology1348074741596;TruePositive">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Trust -->
+
+    <Class rdf:about="&Ontology1348074741596;Trust">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#TrustRelationship -->
+
+    <Class rdf:about="&Ontology1348074741596;TrustRelationship">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Authenticity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#USBDeviceMounted -->
+
+    <Class rdf:about="&Ontology1348074741596;USBDeviceMounted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;DeviceMounted"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Uncertainty -->
+
+    <Class rdf:about="&Ontology1348074741596;Uncertainty">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AccuracyConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Understandability -->
+
+    <Class rdf:about="&Ontology1348074741596;Understandability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Usability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UniformedLabor -->
+
+    <Class rdf:about="&Ontology1348074741596;UniformedLabor">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Cost"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UniformedOverhead -->
+
+    <Class rdf:about="&Ontology1348074741596;UniformedOverhead">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Cost"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfBandwidth -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfBandwidth">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfDataSize -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfDataSize">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfDataTransfer -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfDataTransfer">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RatioUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfEnergy -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfEnergy">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfFrequency -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfFrequency">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RatioUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfLength -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfLength">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfLuminance -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfLuminance">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfMeasurement -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfMeasurement">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfMoney -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfMoney">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfPower -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfPower">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RatioUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfRadiation -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfRadiation">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfSound -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfSound">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfSpeed -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfSpeed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RatioUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfTemprature -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfTemprature">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfTime -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UnitOfWeight -->
+
+    <Class rdf:about="&Ontology1348074741596;UnitOfWeight">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;BasicUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UpStreamBandwidth -->
+
+    <Class rdf:about="&Ontology1348074741596;UpStreamBandwidth">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Bandwidth"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UpTime -->
+
+    <Class rdf:about="&Ontology1348074741596;UpTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Availability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UpdatesPeriod -->
+
+    <Class rdf:about="&Ontology1348074741596;UpdatesPeriod">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Maintainability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Usability -->
+
+    <Class rdf:about="&Ontology1348074741596;Usability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;QoSMetricConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Usage -->
+
+    <Class rdf:about="&Ontology1348074741596;Usage">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#User -->
+
+    <Class rdf:about="&Ontology1348074741596;User">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;CloudConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&Ontology1348074741596;workOn"/>
+                <someValuesFrom rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&Ontology1348074741596;manage"/>
+                <someValuesFrom rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserCreated -->
+
+    <Class rdf:about="&Ontology1348074741596;UserCreated">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserDeleted -->
+
+    <Class rdf:about="&Ontology1348074741596;UserDeleted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserFriendliness -->
+
+    <Class rdf:about="&Ontology1348074741596;UserFriendliness">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Usability"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserLogin -->
+
+    <Class rdf:about="&Ontology1348074741596;UserLogin">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserLoginFailed -->
+
+    <Class rdf:about="&Ontology1348074741596;UserLoginFailed">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserLogout -->
+
+    <Class rdf:about="&Ontology1348074741596;UserLogout">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UserSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#UserSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;UserSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Utilization -->
+
+    <Class rdf:about="&Ontology1348074741596;Utilization">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Performance"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&Ontology1348074741596;restrictTo"/>
+                <someValuesFrom rdf:resource="&Ontology1348074741596;HardwareLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <Ontology1348074741596:quantitativeDefinition>Usage,Capacity,/,100,*</Ontology1348074741596:quantitativeDefinition>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMDemandVolumne -->
+
+    <Class rdf:about="&Ontology1348074741596;VMDemandVolumne">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VolumnUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMExported -->
+
+    <Class rdf:about="&Ontology1348074741596;VMExported">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMImported -->
+
+    <Class rdf:about="&Ontology1348074741596;VMImported">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMMemoryShared -->
+
+    <Class rdf:about="&Ontology1348074741596;VMMemoryShared">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMMigrated -->
+
+    <Class rdf:about="&Ontology1348074741596;VMMigrated">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMOptimized -->
+
+    <Class rdf:about="&Ontology1348074741596;VMOptimized">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMPaused -->
+
+    <Class rdf:about="&Ontology1348074741596;VMPaused">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SystemStatus-VM"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMScaled -->
+
+    <Class rdf:about="&Ontology1348074741596;VMScaled">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMSpecificEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VMSpecificEvent -->
+
+    <Class rdf:about="&Ontology1348074741596;VMSpecificEvent">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SCSEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VideoMemoryAdjusted -->
+
+    <Class rdf:about="&Ontology1348074741596;VideoMemoryAdjusted">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;VMOptimized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VirtualMachine -->
+
+    <Class rdf:about="&Ontology1348074741596;VirtualMachine">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;SoftwareLayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#VolumnUnit -->
+
+    <Class rdf:about="&Ontology1348074741596;VolumnUnit">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;AggregateUnit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Vulnerability -->
+
+    <Class rdf:about="&Ontology1348074741596;Vulnerability">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Security"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#WaitingTime -->
+
+    <Class rdf:about="&Ontology1348074741596;WaitingTime">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;Latency"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Write -->
+
+    <Class rdf:about="&Ontology1348074741596;Write">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;RegularAccessEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#Year -->
+
+    <Class rdf:about="&Ontology1348074741596;Year">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfTime"/>
+        <rdfs:comment>31536000</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#kWh -->
+
+    <Class rdf:about="&Ontology1348074741596;kWh">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfPower"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#pound -->
+
+    <Class rdf:about="&Ontology1348074741596;pound">
+        <rdfs:subClassOf rdf:resource="&Ontology1348074741596;UnitOfWeight"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl#InitialResponseTime -->
+
+    <NamedIndividual rdf:about="&Ontology1348074741596;InitialResponseTime"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

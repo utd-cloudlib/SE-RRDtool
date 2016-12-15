@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Cloud>
+    <DataCenter name="datacenter01">
+        <Cluster name="cluster001">
+	    <Rack name="rack001">
+		<Host name="host001">
+		    <Hypervisor name="hypervisor001">
+			<VM name="vm001">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+			<VM name="vm002">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+			<VM name="vm003">
+			    <OS name="os004">
+			    </OS>
+			</VM>
+		    </Hypervisor>
+		</Host>
+		<Host name="host002">
+		    <Hypervisor name="hypervisor003">
+			<VM name="vm011">
+			    <OS name="os002">
+			    </OS>
+			</VM>
+			<VM name="vm012">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+		    </Hypervisor>
+		</Host>
+	    </Rack>
+        </Cluster>
+        <Cluster name="cluster002">
+	    <Rack name="rack001">
+		<Host name="host011">
+		    <Hypervisor name="hypervisor002">
+			<VM name="vm111">
+			    <OS name="os002">
+			    </OS>
+			</VM>
+			<VM name="vm112">
+			    <OS name="os003">
+			    </OS>
+			</VM>
+			<VM name="vm113">
+			    <OS name="os004">
+			    </OS>
+			</VM>
+		    </Hypervisor>
+		</Host>
+		<Host name="host012">
+		    <Hypervisor name="hypervisor001">
+			<VM name="vm121">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+			<VM name="vm122">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+			<VM name="vm123">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+			<VM name="vm124">
+			    <OS name="os001">
+			    </OS>
+			</VM>
+		    </Hypervisor>
+		</Host>
+	    </Rack>
+        </Cluster>
+    </DataCenter>
+  </Cloud>
+</Config>

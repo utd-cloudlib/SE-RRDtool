@@ -1,0 +1,21 @@
+Reasoning information, starting from selected analyzers: 
+analyzerName:  ProcessTimeAnalyzer
+sensorName  ("RequestResponseRecieveSensor" "RequestTimeSensor")
+attributeName  ("ProcessingTime")
+formula  ("<  Response RequestTime - >" "<  Response Request - >")
+unit  (second second)
+sampling rate (20.0second 20.0second)
+OS type (Ubuntu Ubuntu)
+coefficient  (1.0)
+
+Reasoning information, starting from selected analyzers: 
+analyzerName:  DownTimeAnalyzer
+sensorName  ("SystemDownSensor")
+attributeName  ("DownTime")
+formula  ("<  StartUpTime PowerOffTime - >")
+unit  ()
+coefficient  ()
+sampling rate ()
+OS type ()
+
+

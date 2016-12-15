@@ -1,0 +1,33 @@
+Note:
+1. Currently the input/parameters are not decided yet, because I don't know what's your design or need from the reasoner.
+
+Now the program will read the ontology from "reasoning/ontology/Ontology_V1.06_rdf.owl". 
+
+When everything is fixed, then we can modify this program to fit your need.
+
+2. Usage:
+java -jar reasoner.jar
+
+3. The output is "reasoning/out/output.txt"
+
+4. There is a prefix for analyzer name and sensor name. This prefix is built in the ontology, and the program keeps it. So don't worry about it. It's easy to manage.
+
+5. This is the most important issue, about how to have a try on this program:
+When you want to query something, then you can modify the file of "reasoning/r_analyzer/Analyzerfacts.clp"
+
+Here you only need to change the item of "attribute":
+As you know, "http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl" is the prefix, just change the part of "ProcessingTime" or "DownTime". This is the entrance for your query.
+
+You can see, multiple queries can work together.
+
+So whenever you are ready for the queries, you will need to run the program once.
+
+Then find your result in "reasoning/out/output.txt": it's the item of "attributeName"
+
+6. Another important issue is: you also need to change "reasoning/r_sensor/Sensorfacts.clp"
+
+This is a list for all the rrd files you have. This is usefull because all the reasoning results are based on these facts: every attribute in the final result has a corresponding rrd file to support it.
+
+As you can see, in this way, we can finally get the target rrd file to operate for your rrdtool.
+
+7. All the attributes here must be a concept in the ontology. You need to parse your mapping before this query. 

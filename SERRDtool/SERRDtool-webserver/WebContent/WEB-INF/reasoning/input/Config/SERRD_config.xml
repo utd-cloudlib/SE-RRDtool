@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <db name="SEMANTCIS">
+    <host>localhost</host>
+    <user>root</user>
+    <password>cloud123</password>
+  </db>
+  <Jess>
+    <prefix>http://www.semanticweb.org/ontologies/2012/8/Ontology1348074741596.owl</prefix>
+  </Jess>
+</Config>

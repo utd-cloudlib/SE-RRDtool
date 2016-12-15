@@ -1,0 +1,41 @@
+(assert
+(query
+(metricName "Availability")
+ (unitName "Second")
+ (unit "5")
+ (entityType "Host")
+ (entity "host001")
+ (startTime "341325646")
+ (endTime "341325846")
+ (rows "50")
+ (step "3")
+)
+)
+
+(assert
+(query
+(metricName "Availability")
+ (unitName "Second")
+ (unit "5")
+ (entityType "Cluster")
+ (entity "cluster001")
+ (startTime "341325646")
+ (endTime "341325846")
+ (rows "50")
+ (step "3")
+)
+)
+
+(assert
+(query
+(metricName "Utilization")
+ (unitName "Second")
+ (unit "5")
+ (entityType "Cluster")
+ (entity "cluster002")
+ (startTime "341325646")
+ (endTime "341325846")
+ (rows "50")
+ (step "3")
+)
+)
